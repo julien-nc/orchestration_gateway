@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>orchestration_gateway</id>
+	<name>Orchestration Gateway</name>
+	<summary>Manage webhooks to orchestrate external workflows</summary>
+	<description>Manage webhooks to orchestrate external workflows
+
+TODO TO BE WRITTEN</description>
+	<version>1.0.0</version>
+	<licence>AGPL-3.0-or-later</licence>
+	<author mail="jana.peper@nextcloud.com" homepage="">Jana Peper</author>
+	<namespace>OrchestrationGateway</namespace>
+	<category>integration</category>
+	<category>organization</category>
+	<bugs>https://github.com/TODOERSETZEN</bugs>
+	<dependencies>
+		<nextcloud min-version="34" max-version="35"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>orchestration_gateway</id>
+			<name>Orchestration Gateway</name>
+			<route>orchestration_gateway.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+	<settings>
+		<admin-section>OCA\OrchestrationGateway\Settings\AdminSection</admin-section><admin>OCA\OrchestrationGateway\Settings\Admin</admin>
+		<admin>OCA\OrchestrationGateway\Settings\Admin</admin>
+	</settings>
+</info>
