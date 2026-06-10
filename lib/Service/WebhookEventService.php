@@ -15,10 +15,10 @@ class WebhookEventService {
     public function __construct(
         private IL10N $l10n,
     ) {}
-        /**
+    /**
 	 * List all events that can be registered as a webhook
 	 *
-	 * @return array>
+	 * @return array
 	 *
 	 */
 	public function listEvents(): array {

@@ -27,7 +27,7 @@ TODO TO BE WRITTEN</description>
 		</navigation>
 	</navigations>
 	<settings>
-		<admin-section>OCA\OrchestrationGateway\Settings\AdminSection</admin-section><admin>OCA\OrchestrationGateway\Settings\Admin</admin>
+		<admin-section>OCA\OrchestrationGateway\Settings\AdminSection</admin-section>
 		<admin>OCA\OrchestrationGateway\Settings\Admin</admin>
 	</settings>
 </info>
