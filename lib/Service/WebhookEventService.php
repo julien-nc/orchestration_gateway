@@ -9,13 +9,13 @@ namespace OCA\OrchestrationGateway\Service;
 
 use OCP\IL10N;
 
-
 class WebhookEventService {
 
-    public function __construct(
-        private IL10N $l10n,
-    ) {}
-    /**
+	public function __construct(
+		private IL10N $l10n,
+	) {
+	}
+	/**
 	 * List all events that can be registered as a webhook
 	 *
 	 * @return array
