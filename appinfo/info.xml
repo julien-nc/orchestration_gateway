@@ -9,7 +9,7 @@
 TODO TO BE WRITTEN</description>
 	<version>1.0.0</version>
 	<licence>AGPL-3.0-or-later</licence>
-	<author mail="jana.peper@nextcloud.com" homepage="">Jana Peper</author>
+	<author mail="jana.peper@nextcloud.com">Jana Peper</author>
 	<namespace>OrchestrationGateway</namespace>
 	<category>integration</category>
 	<category>organization</category>
