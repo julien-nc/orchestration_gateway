@@ -18,8 +18,8 @@ TODO TO BE WRITTEN</description>
 		<nextcloud min-version="35" max-version="35"/>
 	</dependencies>
 	<settings>
-		<admin-section>OCA\OrchestrationGateway\Settings\AdminSection</admin-section>
 		<admin>OCA\OrchestrationGateway\Settings\Admin</admin>
+		<admin-section>OCA\OrchestrationGateway\Settings\AdminSection</admin-section>
 	</settings>
 	<navigations>
 		<navigation>
