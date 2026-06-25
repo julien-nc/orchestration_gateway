@@ -9,7 +9,7 @@
     strictBinaryOperands="false"
     findUnusedBaselineEntry="true"
     findUnusedCode="false"
-	phpVersion="8.1"
+	phpVersion="8.3"
 >
     <projectFiles>
         <directory name="lib" />
