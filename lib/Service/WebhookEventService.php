@@ -160,8 +160,6 @@ class WebhookEventService {
 			];
 		}
 
-
-
 		if (class_exists('OCP\\Files\\Events\\Node\\NodeCreatedEvent')) {
 			$events[] = [
 				'name' => 'NodeCreatedEvent',
@@ -177,8 +175,6 @@ class WebhookEventService {
 				'path' => "OCP\Files\Events\Node\NodeTouchedEvent",
 			];
 		}
-
-
 
 		if (class_exists('OCP\\Files\\Events\\Node\\NodeWrittenEvent')) {
 			$events[] = [
@@ -267,7 +263,6 @@ class WebhookEventService {
 				'path' => "OCA\Mail\Events\NewMessageReceivedEvent",
 			];
 		}
-
 
 		return $events;
 	}
